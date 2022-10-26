@@ -11,15 +11,22 @@
     text-decoration: none;
     margin: 10px;
     cursor: pointer;
+    font-size: 15px;
 }
 
 
 .logo {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-    
+    position: relative;
+}
+
+.text_image {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    right: 620px;
+    bottom: 0px;
 }
 
 .form {
@@ -70,17 +77,11 @@
 input:hover {
     border: solid;
     border-color: rgb(206, 206, 206);
+    border-radius: 10px;
     
 }
 
-.text_image {
-    color: #4285f4;
-    font: 16px/16px roboto-regular, arial, sans-serif;
-    position: absolute;
-    left: 880px;
-    bottom: 520px;
-    white-space: nowrap;
-}
+
 
 .header {
     display: flex;
